@@ -15,6 +15,8 @@ public class Main {
 
         String input = scanner.nextLine(); // Get user input
 
-        System.out.println("Your name is: " + input);
+        System.out.println("Your name is: " + input); // Output user name
+
+        scanner.close(); // Close scanner
     }
 }
